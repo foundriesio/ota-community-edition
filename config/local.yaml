@@ -28,10 +28,8 @@ tuf_keyserver_daemon_docker_image: advancedtelematic/tuf-keyserver:0.4.0-46-g029
 tuf_keyserver_docker_image: advancedtelematic/tuf-keyserver:0.4.0-46-g0298f0a
 tuf_reposerver_docker_image: advancedtelematic/tuf-reposerver:0.4.0-46-g0298f0a
 
-# The latest aktualizr requires:
-#   https://github.com/advancedtelematic/director/pull/120
-director_daemon_docker_image: advancedtelematic/director:0.3.0-7-gba1efe5
-director_docker_image: advancedtelematic/director:0.3.0-7-gba1efe5
+director_daemon_docker_image: advancedtelematic/director:0.4.0-11-g9fb516c
+director_docker_image: advancedtelematic/director:0.4.0-11-g9fb516c
 
 web_events_docker_image: false
 
