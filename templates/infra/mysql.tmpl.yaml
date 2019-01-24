@@ -4,6 +4,10 @@ kind: ConfigMap
 metadata:
   name: mysql-config
 data:
+  ota-connect.cnf: |-
+    [mysqld]
+    max_connections = 120
+
 ---
 apiVersion: apps/v1
 kind: StatefulSet
@@ -50,6 +54,13 @@ spec:
         - name: mysql-claim
           mountPath: /var/lib/mysql
           subPath: mysql
+        - name: mysql-config
+          mountPath: /etc/mysql/mariadb.conf.d/
+          readOnly: true
+      volumes:
+      - name: mysql-config
+        configMap:
+          name: mysql-config
   volumeClaimTemplates:
   - metadata:
       name: mysql-claim
