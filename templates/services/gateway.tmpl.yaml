@@ -15,7 +15,7 @@ data:
       ssl_verify_depth 10;
       ssl_client_certificate /etc/ssl/gateway/ca.crt;
 
-      if ($ssl_client_s_dn ~ "OU=(premerge|postmerge|release),CN=(.*)$") {
+      if ($ssl_client_s_dn ~ "OU=(.*?),CN=(.*)$") {
         set $deviceNamespace $1;
         set $deviceUuid $2;
       }
