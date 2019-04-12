@@ -6,7 +6,7 @@ metadata:
 data:
   ota-connect.cnf: |-
     [mysqld]
-    max_connections = 120
+    max_connections = 200
 
 ---
 apiVersion: apps/v1

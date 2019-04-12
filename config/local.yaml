@@ -16,6 +16,7 @@ gke_nodepool: mgmt
 ingress_dns_name: foundries.io
 
 # images
+mysql_docker_image: mariadb:10.3.14
 app_docker_image: false
 campaigner_docker_image: false
 campaigner_daemon_docker_image: false
