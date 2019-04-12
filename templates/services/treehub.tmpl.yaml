@@ -43,7 +43,7 @@ spec:
       initContainers:
       - name: treehub-init
         image: {{ .init_docker_image }}
-        command: ["sh", "-c", "chown --recursive 2:2 /treehub-objects"]
+        command: ["sh", "-c", "touch /treehub-objects/.test || chown --recursive 2:2 /treehub-objects"]
         volumeMounts:
         - name: treehub-claim
           mountPath: /treehub-objects
