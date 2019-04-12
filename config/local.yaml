@@ -27,8 +27,8 @@ tuf_keyserver_daemon_docker_image: advancedtelematic/tuf-keyserver:0.6.0-18-g5b8
 tuf_keyserver_docker_image: advancedtelematic/tuf-keyserver:0.6.0-18-g5b8b259
 tuf_reposerver_docker_image: advancedtelematic/tuf-reposerver:0.6.0-18-g5b8b259
 
-director_daemon_docker_image: advancedtelematic/director:0.4.0-11-g9fb516c
-director_docker_image: advancedtelematic/director:0.4.0-11-g9fb516c
+director_daemon_docker_image: advancedtelematic/director:0.7.0-7-g8cbbcc3
+director_docker_image: advancedtelematic/director:0.7.0-7-g8cbbcc3
 
 web_events_docker_image: false
 
