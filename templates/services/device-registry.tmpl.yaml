@@ -13,6 +13,7 @@ data:
   ENV_PREFIX: {{ .env_prefix }}
   JAVA_OPTS: {{ .device_registry_java_opts }}
   REPORT_METRICS: "false"
+  AUDITOR_MIGRATE: "false"
 ---
 apiVersion: apps/v1
 kind: Deployment
