@@ -22,11 +22,9 @@ campaigner_daemon_docker_image: false
 device_registry_docker_image: advancedtelematic/device-registry:0.3.0-12-ga1ea92b
 treehub_docker_image: advancedtelematic/treehub:0.1.20
 
-# Use the 0.4 ota-tuf containers. They don't require "vault" which makes
-# deployment and management of the cluster dramatically easier.
-tuf_keyserver_daemon_docker_image: advancedtelematic/tuf-keyserver:0.4.0-46-g0298f0a
-tuf_keyserver_docker_image: advancedtelematic/tuf-keyserver:0.4.0-46-g0298f0a
-tuf_reposerver_docker_image: advancedtelematic/tuf-reposerver:0.4.0-46-g0298f0a
+tuf_keyserver_daemon_docker_image: advancedtelematic/tuf-keyserver:0.6.0-18-g5b8b259
+tuf_keyserver_docker_image: advancedtelematic/tuf-keyserver:0.6.0-18-g5b8b259
+tuf_reposerver_docker_image: advancedtelematic/tuf-reposerver:0.6.0-18-g5b8b259
 
 director_daemon_docker_image: advancedtelematic/director:0.4.0-11-g9fb516c
 director_docker_image: advancedtelematic/director:0.4.0-11-g9fb516c
