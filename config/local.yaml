@@ -20,15 +20,15 @@ mysql_docker_image: mariadb:10.3.14
 app_docker_image: false
 campaigner_docker_image: false
 campaigner_daemon_docker_image: false
-device_registry_docker_image: advancedtelematic/device-registry:0.3.0-12-ga1ea92b
-treehub_docker_image: advancedtelematic/treehub:0.1.20
+device_registry_docker_image: foundries/3p-device-registry:0.3.0-12-ga1ea92b
+treehub_docker_image: foundries/3p-treehub:0.1.20
 
-tuf_keyserver_daemon_docker_image: advancedtelematic/tuf-keyserver:0.6.0-18-g5b8b259
-tuf_keyserver_docker_image: advancedtelematic/tuf-keyserver:0.6.0-18-g5b8b259
-tuf_reposerver_docker_image: advancedtelematic/tuf-reposerver:0.6.0-18-g5b8b259
+tuf_keyserver_daemon_docker_image: foundries/3p-tuf-keyserver:0.6.0-18-g5b8b259
+tuf_keyserver_docker_image: foundries/3p-tuf-keyserver:0.6.0-18-g5b8b259
+tuf_reposerver_docker_image: foundries/3p-tuf-reposerver:0.6.0-18-g5b8b259
 
-director_daemon_docker_image: advancedtelematic/director:0.7.0-7-g8cbbcc3
-director_docker_image: advancedtelematic/director:0.7.0-7-g8cbbcc3
+director_daemon_docker_image: foundries/3p-director:0.7.0-7-g8cbbcc3
+director_docker_image: foundries/3p-director:0.7.0-7-g8cbbcc3
 
 web_events_docker_image: false
 
